@@ -3,7 +3,7 @@
 // @namespace     https://kitsun.io
 // @description   Wrap the selected word in HTML to "highlight" it in the sentence.
 // @author        seanblue
-// @version       1.0.0
+// @version       1.0.1
 // @include       https://kitsun.io/*
 // @grant         none
 // ==/UserScript==
@@ -11,7 +11,7 @@
 (function() {
     'use strict';
 
-    const requiredKey = 118; // F7
+    const requiredKey = 115; // F4
 
     const openTag = '<span class="highlight">';
     const closeTag = '</span>';
